@@ -6,7 +6,7 @@ const Octokit = require('./test-github')
 const PORT = process.env.PORT || 4000;
 
 app.get('/',(req,res) => {
-    res.send("hello World")
+    
 }) 
 console.log(process.env.PORT);
 app.listen( PORT ,() => {
